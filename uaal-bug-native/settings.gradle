@@ -1,2 +1,5 @@
 include ':app'
 rootProject.name = "uaal-bug-native"
+
+include ':unityLibrary'
+project(':unityLibrary').projectDir=new File('./unityAndroidBuild/unityLibrary')
